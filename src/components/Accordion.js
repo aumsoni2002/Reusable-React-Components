@@ -7,10 +7,10 @@ function Accordion({ items }) {
   const handleClick = (indexParameter) => {
     setExpandedIndex((currentExpandedIndex) => {
       if (currentExpandedIndex === indexParameter) {
-        console.log(-1);
+        // console.log(-1);
         return -1;
       } else {
-        console.log(indexParameter)
+        // console.log(indexParameter)
         return indexParameter;
       }
     });
